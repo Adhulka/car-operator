@@ -4,6 +4,7 @@ class cars {
   int? price;
   String? place_of_showroom;
   static String cars_description = "all car manufeature in india";
+  static const String course = "luminar";
 }
 
 void main() {
@@ -14,6 +15,7 @@ void main() {
   print("price  :${c1.price = 8157933}");
   print("place_of_showroom    :${c1.place_of_showroom = "guruvayur"}");
   print("manufeature  :${cars.cars_description}");
+  print('course :${cars.course}');
 
   cars c2 = cars();
   print("car 2 details");
