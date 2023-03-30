@@ -1,24 +1,24 @@
 void main() {
   // arithametic oprations
-  // dynamic a = 10;
-  // dynamic b = 3;
+  dynamic a = 10;
+  dynamic b = 3;
 
-  // print('sum = ${a + b}');
-  // print('sub =${a - b}');
-  // print('mul =${a * b}');
-  // print('div =${a / b}');
-  // print('tdiv=${a ~/ b}');
-  // print('mdiv =${a % b}');
-  // print('sign=${-(a * b)}');
+  print('sum = ${a + b}');
+  print('sub =${a - b}');
+  print('mul =${a * b}');
+  print('div =${a / b}');
+  print('tdiv=${a ~/ b}');
+  print('mdiv =${a % b}');
+  print('sign=${-(a * b)}');
 
   ///Assignment Operator
 
-  // print('a=b=> ${a = b}'); //a=b ->a=3
-  // print('a+=b => ${a += b}'); //a= a+b -> a=3+3=6
-  // print('a-=b=> ${a -= b}'); //a-b ->a=6-3 =3
-  // print('a*=b=> ${a *= b}'); //a=a*b ->a=3*3=9
-  // print('a/=b=> ${a /= b}'); //a=a/b ->a=9/3=3
-  // print('a%=b=> ${a % b}'); //a=b ->a=3
+  print('a=b=> ${a = b}'); //a=b ->a=3
+  print('a+=b => ${a += b}'); //a= a+b -> a=3+3=6
+  print('a-=b=> ${a -= b}'); //a-b ->a=6-3 =3
+  print('a*=b=> ${a *= b}'); //a=a*b ->a=3*3=9
+  print('a/=b=> ${a /= b}'); //a=a/b ->a=9/3=3
+  print('a%=b=> ${a % b}'); //a=b ->a=3
 
   ///Unary Operator
   ///pre fix ++ express or --express
@@ -36,4 +36,14 @@ void main() {
 // type test opeartor  ->is or is!
   print(x is int);
   print(x is! int);
+
+  ///relational operator
+  int z = 50;
+
+  print("z > 10 = ${z > 10}");
+  print("z <20  =${z < 20}");
+  print("z  >=  50  =${z >= 50}");
+  print("z  == 10 =${z == 10}");
+  print("z  <= 60 ${z <= 60}");
+  print("z  !=10  =${z != 10}");
 }
