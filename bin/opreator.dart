@@ -46,4 +46,39 @@ void main() {
   print("z  == 10 =${z == 10}");
   print("z  <= 60 ${z <= 60}");
   print("z  !=10  =${z != 10}");
+
+  ///logical operator  &&  //  !(expression)
+
+  String username = "admin";
+  String password = 'admin@123';
+  int otp = 1122;
+  print(username == "admin" && password == 'admin@123' && otp == 1122);
+
+  print(username == "admin" && password == 'admin@123' || otp == 1122);
+
+  print(!(otp == 1122));
+
+  ///bitwise
+
+  int i = 8; //1010          binary in decimal value
+
+  int j = 5; // 0101
+
+  /// i & j   = 0010  =2
+
+  ///i  | j    = 1011  = 11
+  ///i  ^  j   = 1001   = 9
+  print(i & j);
+  print(i | j);
+  print(i ^ j);
+
+  /// CONDITIONAL  OPERATOR  CONDITION  ? TRUE STATEMENT  : FALSE STATEMENT ;
+  int age = 20;
+  String result = (age >= 18) ? "enter the world  " : "not enter the world";
+  print(result);
+
+  ///condition operator 2    expession1  expession 2
+  String? data;
+  var out = data?.length ?? "not a  valid data ";
+  print(out);
 }
