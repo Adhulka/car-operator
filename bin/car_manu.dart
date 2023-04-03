@@ -12,12 +12,14 @@ void main() {
   print("car 1 details");
   print("name   :${c1.name = "BMW"}");
   print("number_plate   :${c1.number_plate = 2255}");
+
   print("price  :${c1.price = 8157933}");
   print("place_of_showroom    :${c1.place_of_showroom = "guruvayur"}");
   print("manufeature  :${cars.cars_description}");
   print('course :${cars.course}');
 
   cars c2 = cars();
+
   print("car 2 details");
   print("name   :${c2.name = "BENZ"}");
   print("number_plate   :${c2.number_plate = 369}");
